@@ -39,5 +39,6 @@ L<Role::TinyCommons::Tree::Node> for more details on the requirement.
 
 L<Role::TinyCommons::Tree>
 
-Other ways to create tree: L<Tree::From::Struct>, L<Tree::From::Text>,
-L<Tree::From::TextLines>, L<Tree::Create::Callback>, L<Tree::Create::Size>.
+Other ways to create tree: L<Tree::From::Struct>, L<Tree::From::ObjArray>,
+L<Tree::From::Text>, L<Tree::From::TextLines>, L<Tree::Create::Callback>,
+L<Tree::Create::Size>.
