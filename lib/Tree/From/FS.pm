@@ -1,11 +1,14 @@
 package Tree::From::FS;
 
+use strict;
+use warnings;
+use Exporter qw(import);
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
 
-use Exporter qw(import);
 our @EXPORT_OK = qw(create_tree_from_dir);
 
 sub create_tree_from_dir {
@@ -37,7 +40,7 @@ L<Role::TinyCommons::Tree::Node> for more details on the requirement.
 
 =head1 SEE ALSO
 
-L<Role::TinyCommons::Tree>
+L<RoleBundle::TinyCommons::Tree>
 
 Other ways to create tree: L<Tree::From::Struct>, L<Tree::From::ObjArray>,
 L<Tree::From::Text>, L<Tree::From::TextLines>, L<Tree::Create::Callback>,
